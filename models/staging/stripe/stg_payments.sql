@@ -5,7 +5,7 @@ select
     status,
     -- amount is stored in cents, convert to dollars
     {{cents_to_dollars('amount', 4)}} as amount,
-    created as created_a
+    created as created_at
 
     
 
